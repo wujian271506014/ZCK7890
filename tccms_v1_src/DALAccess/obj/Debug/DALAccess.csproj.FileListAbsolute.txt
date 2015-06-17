@@ -1,0 +1,28 @@
+E:\C\tuichu\Tc\DALAccess\bin\Debug\Tc.DALSqlite.dll
+E:\C\tuichu\Tc\DALAccess\bin\Debug\Tc.DALSqlite.pdb
+E:\C\tuichu\Tc\DALAccess\bin\Debug\DotNet.dll
+E:\C\tuichu\Tc\DALAccess\bin\Debug\Model.dll
+E:\C\tuichu\Tc\DALAccess\bin\Debug\System.Data.SQLite.DLL
+E:\C\tuichu\Tc\DALAccess\bin\Debug\Model.pdb
+E:\C\tuichu\Tc\DALAccess\obj\Debug\DALAccess.csprojResolveAssemblyReference.cache
+E:\C\tuichu\Tc\DALAccess\obj\Debug\Tc.DALSqlite.dll
+E:\C\tuichu\Tc\DALAccess\obj\Debug\Tc.DALSqlite.pdb
+E:\C\tuichu\Tc\DALAccess\bin\Debug\DotNet.xml
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\bin\Debug\Tc.DALAccess.dll
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\bin\Debug\Tc.DALAccess.pdb
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\bin\Debug\DotNet.dll
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\bin\Debug\Model.dll
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\bin\Debug\System.Data.SQLite.DLL
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\bin\Debug\Model.pdb
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\obj\Debug\DALAccess.csprojResolveAssemblyReference.cache
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\obj\Debug\Tc.DALAccess.dll
+C:\Users\t\Desktop\tccms_v1-src\DALAccess\obj\Debug\Tc.DALAccess.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\bin\Debug\Tc.DALAccess.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\bin\Debug\Tc.DALAccess.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\bin\Debug\DotNet.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\bin\Debug\Model.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\bin\Debug\System.Data.SQLite.DLL
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\bin\Debug\Model.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\obj\Debug\DALAccess.csprojResolveAssemblyReference.cache
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\obj\Debug\Tc.DALAccess.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\obj\Debug\Tc.DALAccess.pdb

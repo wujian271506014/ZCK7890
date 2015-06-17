@@ -1,0 +1,12 @@
+E:\Code\tuichu\Tc\Model\bin\Release\Model.dll
+E:\Code\tuichu\Tc\Model\bin\Release\Model.pdb
+E:\Code\tuichu\Tc\Model\obj\Release\Model.dll
+E:\Code\tuichu\Tc\Model\obj\Release\Model.pdb
+E:\C\tuichu\Tc\Model\bin\Release\Model.dll
+E:\C\tuichu\Tc\Model\bin\Release\Model.pdb
+E:\C\tuichu\Tc\Model\obj\Release\Model.dll
+E:\C\tuichu\Tc\Model\obj\Release\Model.pdb
+C:\Users\t\Desktop\tccms_v1-src\Model\bin\Release\Model.dll
+C:\Users\t\Desktop\tccms_v1-src\Model\bin\Release\Model.pdb
+C:\Users\t\Desktop\tccms_v1-src\Model\obj\Release\Model.dll
+C:\Users\t\Desktop\tccms_v1-src\Model\obj\Release\Model.pdb

@@ -1,0 +1,44 @@
+E:\Code\tuichu\Tc\BLL\bin\Debug\Tc.BLL.dll
+E:\Code\tuichu\Tc\BLL\bin\Debug\Tc.BLL.pdb
+E:\Code\tuichu\Tc\BLL\bin\Debug\Model.dll
+E:\Code\tuichu\Tc\BLL\bin\Debug\Tc.DALSqlite.dll
+E:\Code\tuichu\Tc\BLL\bin\Debug\System.Data.SQLite.dll
+E:\Code\tuichu\Tc\BLL\bin\Debug\DotNet.dll
+E:\Code\tuichu\Tc\BLL\bin\Debug\Tc.DALSqlite.pdb
+E:\Code\tuichu\Tc\BLL\bin\Debug\Model.pdb
+E:\Code\tuichu\Tc\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Code\tuichu\Tc\BLL\obj\Debug\Tc.BLL.dll
+E:\Code\tuichu\Tc\BLL\obj\Debug\Tc.BLL.pdb
+E:\C\tuichu\Tc\BLL\bin\Debug\Tc.BLL.dll
+E:\C\tuichu\Tc\BLL\bin\Debug\Tc.BLL.pdb
+E:\C\tuichu\Tc\BLL\bin\Debug\Model.dll
+E:\C\tuichu\Tc\BLL\bin\Debug\Tc.DALSqlite.dll
+E:\C\tuichu\Tc\BLL\bin\Debug\DotNet.dll
+E:\C\tuichu\Tc\BLL\bin\Debug\Tc.DALSqlite.pdb
+E:\C\tuichu\Tc\BLL\bin\Debug\Model.pdb
+E:\C\tuichu\Tc\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\C\tuichu\Tc\BLL\obj\Debug\Tc.BLL.dll
+E:\C\tuichu\Tc\BLL\obj\Debug\Tc.BLL.pdb
+E:\C\tuichu\Tc\BLL\bin\Debug\System.Data.SQLite.dll
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\Tc.BLL.dll
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\Tc.BLL.pdb
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\Model.dll
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\Tc.DALAccess.dll
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\DotNet.dll
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\Tc.DALAccess.pdb
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\Model.pdb
+C:\Users\t\Desktop\tccms_v1-src\BLL\bin\Debug\DotNet.xml
+C:\Users\t\Desktop\tccms_v1-src\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\t\Desktop\tccms_v1-src\BLL\obj\Debug\Tc.BLL.dll
+C:\Users\t\Desktop\tccms_v1-src\BLL\obj\Debug\Tc.BLL.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\Tc.BLL.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\Tc.BLL.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\Model.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\Tc.DALAccess.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\DotNet.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\Tc.DALAccess.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\Model.pdb
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin\Debug\DotNet.xml
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\obj\Debug\Tc.BLL.dll
+E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\obj\Debug\Tc.BLL.pdb

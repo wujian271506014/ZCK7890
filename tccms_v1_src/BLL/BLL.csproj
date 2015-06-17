@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60BDACC1-FAC5-40FC-AE80-E50BBDC27553}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tc.BLL</RootNamespace>
+    <AssemblyName>Tc.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLLBase.cs" />
+    <Compile Include="BLLP.cs" />
+    <Compile Include="C\TcAd.cs" />
+    <Compile Include="C\TcAdmin.cs" />
+    <Compile Include="C\TcArticle.cs" />
+    <Compile Include="C\TcChanpin.cs" />
+    <Compile Include="C\TcConfig.cs" />
+    <Compile Include="C\TcDanye.cs" />
+    <Compile Include="C\TcFenlei.cs" />
+    <Compile Include="C\TcHuandeng.cs" />
+    <Compile Include="C\TcLinks.cs" />
+    <Compile Include="C\TcLiuyan.cs" />
+    <Compile Include="C\TcQuxian.cs" />
+    <Compile Include="C\TcSheng.cs" />
+    <Compile Include="C\TcShi.cs" />
+    <Compile Include="C\TcTupian.cs" />
+    <Compile Include="C\TcZidian.cs" />
+    <Compile Include="Ext\TcArticle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ext\Upv.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DALAccess\DALAccess.csproj">
+      <Project>{df74bf60-b980-47e0-9aaf-25651ac9b3a8}</Project>
+      <Name>DALAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{a24d7bf7-b468-409b-b605-5bfd4264d1d3}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

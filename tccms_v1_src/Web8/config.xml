@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configs>
+  <!--资讯文章缩略图宽高-->
+  <key name="article_a_tp_wh"></key>
+  <!--应用案例缩略图宽高-->
+  <key name="article_al_tp_wh"></key>
+  <!--产品缩略图宽高-->
+  <key name="product_c_tp_wh"></key>
+  <!--友情链接略图宽高-->
+  <key name="links_tp_wh">88,31</key>
+  <!--单页略图宽高-->
+  <key name="danye_tp_wh"></key>
+</configs>

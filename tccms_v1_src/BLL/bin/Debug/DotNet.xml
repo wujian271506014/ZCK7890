@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNet</name>
+    </assembly>
+    <members>
+        <member name="M:System.DEncrypt.Sha1Md5(System.String)">
+            <summary>
+            sha1+md5
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.DEncrypt.Md5(System.String)">
+            <summary>
+            md5
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.DEncrypt.Sha1(System.String)">
+            <summary>
+            sha1
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.DEncrypt.Encrypt(System.String)">
+            <summary>
+            加密
+            </summary>
+            <param name="Text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.DEncrypt.Encrypt(System.String,System.String)">
+            <summary>
+            加密数据
+            </summary>
+            <param name="Text"></param>
+            <param name="sKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.DEncrypt.Decrypt(System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="Text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.DEncrypt.Decrypt(System.String,System.String)">
+            <summary>
+            解密数据
+            </summary>
+            <param name="Text"></param>
+            <param name="sKey"></param>
+            <returns></returns>
+        </member>
+        <member name="F:System.Hanzi.pyValue">
+            <summary>        
+            定义拼音区编码数组        
+            </summary>
+        </member>
+        <member name="F:System.Hanzi.pyName">
+            <summary>        
+            定义数组        
+            </summary>
+        </member>
+        <member name="M:System.Hanzi.GetFirstCodes(System.String,System.String)">
+            <summary>
+            获取每个字的首字母（以split分隔）
+            </summary>
+            <param name="hanzi"></param>
+            <param name="split"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Hanzi.GetFirstCodes(System.String)">
+            <summary>
+            获取每个字的首字母
+            </summary>
+            <param name="hanzi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ProcessKeyword.addSplit(System.String)">
+            <summary>
+            过滤sql注入,并在每个字符前加%(默认加单引号)
+            </summary>
+            <param name="keyword"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ProcessKeyword.addBeginEnd(System.String)">
+            <summary>
+            过滤sql注入,开头和结尾处加%（默认加单引号）
+            </summary>
+            <param name="keyword"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.SqlString.FilterSql(System.String)">
+            <summary>
+            过滤sql注入的相关字符串
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtCheckBoxList.SetValues(System.Web.UI.WebControls.CheckBoxList,System.String,System.Char)">
+            <summary>
+            设置CheckBoxList实例所有选中的值，以split分隔
+            </summary>
+            <param name="list"></param>
+            <param name="values"></param>
+            <param name="split"></param>
+        </member>
+        <member name="M:System.ExtCheckBoxList.SetValues(System.Web.UI.WebControls.CheckBoxList,System.String)">
+            <summary>
+            设置CheckBoxList实例所有选中的值
+            </summary>
+            <param name="list"></param>
+            <param name="values"></param>
+        </member>
+        <member name="M:System.ExtCheckBoxList.GetValues(System.Web.UI.WebControls.ListControl,System.String)">
+            <summary>
+            获取CheckBoxList实例所有选中的值，以split分隔
+            </summary>
+            <param name="list">CheckBoxList 实例</param>
+            <param name="split">分隔符</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtCheckBoxList.GetValues(System.Web.UI.WebControls.ListControl)">
+            <summary>
+            获取CheckBoxList实例所有选中的值
+            </summary>
+            <param name="list">CheckBoxList 实例</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtListControl">
+            <summary>
+            扩展ListControl
+            </summary>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Int32,System.Int32)">
+            <summary>
+            设置ListControl的DataSource（数字范围）   
+            </summary>
+            <param name="list"></param>
+            <param name="startNum">开始数字</param>
+            <param name="count">总个数</param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Collections.IEnumerable,System.String,System.String)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="enumerable"></param>
+            <param name="valueField"></param>
+            <param name="textField"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Collections.IEnumerable)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="enumerable"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Data.DataTable,System.String,System.String,System.String)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="dt"></param>
+            <param name="rowFilter"></param>
+            <param name="valueField"></param>
+            <param name="textField"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Data.DataTable,System.String)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="dt"></param>
+            <param name="rowFilter"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Data.DataTable,System.String,System.String)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="dt"></param>
+            <param name="valueField"></param>
+            <param name="textField"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Data.DataTable)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="dt"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Data.DataView,System.String,System.String,System.String)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="dv"></param>
+            <param name="rowFilter"></param>
+            <param name="valueField"></param>
+            <param name="textField"></param>
+        </member>
+        <member name="M:System.ExtListControl.SetDataSource(System.Web.UI.WebControls.ListControl,System.Data.DataView,System.String)">
+            <summary>
+            设置ListControl的DataSource
+            </summary>
+            <param name="list"></param>
+            <param name="dv"></param>
+            <param name="rowFilter"></param>
+        </member>
+        <member name="T:System.ProcessImage">
+            <summary>
+            图片处理（生成缩略图，加水印）
+            </summary>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.Web.HttpPostedFile,System.String,System.Int32,System.Int32)">
+            <summary>
+            /创建缩略图参数
+            </summary>
+            <param name="file">HttpPostedFile file = Request.Files["FileUpload1"];</param>
+            <param name="savepath">完整保存地址，需要server.mappath</param>
+            <param name="createwidth">生成图片的宽度</param>
+            <param name="createheight">生成图片的高度</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.Web.HttpPostedFile,System.String)">
+            <summary>
+            创建跟原图一样大小的jpg图片
+            </summary>
+            <param name="file">HttpPostedFile file = Request.Files["FileUpload1"];</param>
+            <param name="savepath">完整保存地址，需要server.mappath</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            创建缩略图
+            </summary>
+            <param name="readpath">完整图片地址（包括server.mappath）</param>
+            <param name="savepath">完成保存地址(包括server.mappath)</param>
+            <param name="createwidth">生成图片的宽度</param>
+            <param name="createheight">生成图片的高度</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.String,System.String)">
+            <summary>
+            创建缩略图
+            </summary>
+            <param name="readpath">完整图片地址（包括server.mappath）</param>
+            <param name="savepath">完成保存地址(包括server.mappath)</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.String,System.String,System.Boolean)">
+            <summary>
+            创建缩略图
+            </summary>
+            <param name="readpath">完整图片地址（包括server.mappath）</param>
+            <param name="savepath">完成保存地址(包括server.mappath)</param>
+            <param name="addwhite">是否填充白色（如果高度和宽度达不到生成图片的比例时，会自动在宽或者高处填充白色）</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.Web.HttpPostedFile,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            /创建缩略图参数
+            </summary>
+            <param name="file">HttpPostedFile file = Request.Files["FileUpload1"];</param>
+            <param name="savepath">完整保存地址，需要server.mappath</param>
+            <param name="createwidth">生成图片的宽度</param>
+            <param name="createheight">生成图片的高度</param>
+            <param name="addwhite">是否填充白色（如果高度和宽度达不到生成图片的比例时，会自动在宽或者高处填充白色）</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.Web.HttpPostedFile,System.String,System.Boolean)">
+            <summary>
+            创建跟原图一样大小的jpg图片
+            </summary>
+            <param name="file">HttpPostedFile file = Request.Files["FileUpload1"];</param>
+            <param name="savepath">完整保存地址，需要server.mappath</param>
+            <param name="addwhite">是否填充白色（如果高度和宽度达不到生成图片的比例时，会自动在宽或者高处填充白色）</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            创建缩略图
+            </summary>
+            <param name="readpath">完整图片地址（包括server.mappath）</param>
+            <param name="savepath">完成保存地址(包括server.mappath)</param>
+            <param name="createwidth">生成图片的宽度</param>
+            <param name="createheight">生成图片的高度</param>
+            <param name="addwhite">是否填充白色（如果高度和宽度达不到生成图片的比例时，会自动在宽或者高处填充白色）</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateThumbnail(System.Drawing.Image,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            创建缩略图
+            </summary>
+            <param name="original_image">Image 对象</param>
+            <param name="savepath">完成保存地址,需要server.mappath</param>
+            <param name="createwidth">生成图片的宽度</param>
+            <param name="createheight">生成图片的高度</param>
+            <param name="addwhite">是否填充白色（如果高度和宽度达不到生成图片的比例时，会自动在宽或者高处填充白色）</param>
+            <returns>0:创建缩略图失败，1：传入的文件格式错误，2：创建成功</returns>
+        </member>
+        <member name="M:System.ProcessImage.AddWaterText(System.String,System.String,System.String,System.ProcessImage.WatermarkPosition,System.String,System.Int32,System.Drawing.Color)">
+            <summary>
+            添加文字水印(不支持gif，使用前最好先生成jpg)
+            </summary>
+            <param name="file"></param>
+            <param name="savepath"></param>
+            <param name="watermarkText"></param>
+            <param name="position"></param>
+            <param name="font"></param>
+            <param name="size"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ProcessImage.AddWaterMark(System.String,System.String,System.Single,System.ProcessImage.WatermarkPosition,System.Int32,System.String)">
+            <summary>
+            添加图片水印(不支持gif，使用前最好先生成jpg)
+            </summary>
+            <param name="readpath">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="watermarkpath">水印图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <param name="position">枚举 ImageManager.WatermarkPosition : ImageManager.WatermarkPosition</param>
+            <param name="margin">水印边距: int</param>
+            <param name="savepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="quanju">全局打水印,true：是 false:否</param>
+        </member>
+        <member name="M:System.ProcessImage.AddWaterMark(System.String,System.String,System.Single,System.ProcessImage.WatermarkPosition,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            添加图片水印(不支持gif，使用前最好先生成jpg)
+            </summary>
+            <param name="readpath">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="watermarkpath">水印图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <param name="position">枚举 ImageManager.WatermarkPosition : ImageManager.WatermarkPosition</param>
+            <param name="margin">水印边距: int</param>
+            <param name="savepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="createwidth">创建出来的宽度</param>
+            <param name="createheight">创建出来的高度</param>
+            <param name="quanju">全局打水印,true：是 false:否</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ProcessImage.AddWaterMark(System.String,System.String,System.Single,System.ProcessImage.WatermarkPosition,System.Int32,System.String,System.Boolean)">
+            <summary>
+            添加图片水印(不支持gif，使用前最好先生成jpg)
+            </summary>
+            <param name="readpath">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="watermarkpath">水印图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <param name="position">枚举 ImageManager.WatermarkPosition : ImageManager.WatermarkPosition</param>
+            <param name="margin">水印边距: int</param>
+            <param name="savepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="quanju">全局打水印,true：是 false:否</param>
+        </member>
+        <member name="M:System.ProcessImage.AddWaterMark(System.String,System.String,System.Single,System.ProcessImage.WatermarkPosition,System.Int32,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            添加图片水印(不支持gif，使用前最好先生成jpg)
+            </summary>
+            <param name="readpath">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="watermarkpath">水印图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <param name="position">枚举 ImageManager.WatermarkPosition : ImageManager.WatermarkPosition</param>
+            <param name="margin">水印边距: int</param>
+            <param name="savepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="createwidth">创建出来的宽度</param>
+            <param name="createheight">创建出来的高度</param>
+            <param name="quanju">全局打水印,true：是 false:否</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ProcessImage.GetFileName(System.String)">
+            <summary>
+            获取: 图片去扩展名(包含完整路径及其文件名)小写字符串
+            </summary>
+            <param name="path">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <returns>返回: 图片去扩展名(包含完整路径及其文件名)小写字符串: string</returns>
+        </member>
+        <member name="M:System.ProcessImage.GetExtension(System.String)">
+            <summary>
+            获取: 图片以'.'开头的小写字符串扩展名
+            </summary>
+            <param name="path">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <returns>返回: 图片以'.'开头的小写字符串扩展名: string</returns>
+        </member>
+        <member name="M:System.ProcessImage.GetImageFormat(System.String)">
+            <summary>
+            获取: 图片以 '.' 开头的小写字符串扩展名对应的 System.Drawing.Imaging.ImageFormat 对象
+            </summary>
+            <param name="format">以 '. '开头的小写字符串扩展名: string</param>
+            <returns>返回: 图片以 '.' 开头的小写字符串扩展名对应的 System.Drawing.Imaging.ImageFormat 对象: System.Drawing.Imaging.ImageFormat</returns>
+        </member>
+        <member name="M:System.ProcessImage.GetWatermarkRectangle(System.ProcessImage.WatermarkPosition,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取: 枚举 ImageManager.WatermarkPosition 对应的 System.Drawing.Rectangle 对象
+            </summary>
+            <param name="positon">枚举 ImageManager.WatermarkPosition: ImageManager.WatermarkPosition</param>
+            <param name="X">原图宽度: int</param>
+            <param name="Y">原图高度: int</param>
+            <param name="x">水印宽度: int</param>
+            <param name="y">水印高度: int</param>
+            <param name="i">边距: int</param>
+            <returns>返回: 枚举 ImageManager.WatermarkPosition 对应的 System.Drawing.Rectangle 对象: System.Drawing.Rectangle</returns>
+        </member>
+        <member name="M:System.ProcessImage.SetTransparence(System.Drawing.Bitmap,System.Single)">
+            <summary>
+            设置: 图片 System.Drawing.Bitmap 对象透明度
+            </summary>
+            <param name="sBitmap">图片 System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <returns>图片 System.Drawing.Bitmap: System.Drawing.Bitmap</returns>
+        </member>
+        <member name="M:System.ProcessImage.SetTransparence(System.String,System.Single)">
+            <summary>
+             设置: 图片 System.Drawing.Bitmap 对象透明度
+            </summary>
+            <param name="readpath">图片路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <returns>图片 System.Drawing.Bitmap: System.Drawing.Bitmap</returns>
+        </member>
+        <member name="M:System.ProcessImage.CreateWatermark(System.Drawing.Bitmap,System.Drawing.Bitmap,System.ProcessImage.WatermarkPosition,System.Int32,System.Boolean)">
+            <summary>
+            生成: 原图绘制水印的 System.Drawing.Bitmap 对象
+            </summary>
+            <param name="sBitmap">原图 System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="wBitmap">水印 System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="position">枚举 ImageManager.WatermarkPosition : ImageManager.WatermarkPosition</param>
+            <param name="margin">水印边距: int</param>
+            <returns>返回: 原图绘制水印的 System.Drawing.Bitmap 对象 System.Drawing.Bitmap</returns>
+            <param name="quanju">全局打水印,true：是 false:否</param>
+        </member>
+        <member name="M:System.ProcessImage.Save(System.Drawing.Bitmap,System.String)">
+            <summary>
+            保存: System.Drawing.Bitmap 对象到图片文件
+            </summary>
+            <param name="bitmap">System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="writepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+        </member>
+        <member name="M:System.ProcessImage.Save(System.String,System.String)">
+            <summary>
+            保存: 对象到图片文件
+            </summary>
+            <param name="readpath">原图路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="writepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+        </member>
+        <member name="M:System.ProcessImage.SaveTransparence(System.Drawing.Bitmap,System.Single,System.String)">
+            <summary>
+            保存: 设置透明度的对象到图片文件
+            </summary>
+            <param name="sBitmap">图片 System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <param name="writepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+        </member>
+        <member name="M:System.ProcessImage.SaveTransparence(System.String,System.Single,System.String)">
+            <summary>
+            保存: 设置透明度的象到图片文件
+            </summary>
+            <param name="readpath">原图路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="transparence">水印透明度(值越高透明度越低,范围在0.0f~1.0f之间): float</param>
+            <param name="writepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+        </member>
+        <member name="M:System.ProcessImage.SaveWatermark(System.Drawing.Bitmap,System.Drawing.Bitmap,System.ProcessImage.WatermarkPosition,System.Int32,System.String,System.Boolean)">
+            <summary>
+            保存: 绘制水印的对象到图片文件
+            </summary>
+            <param name="sBitmap">原图 System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="wBitmap">水印 System.Drawing.Bitmap 对象: System.Drawing.Bitmap</param>
+            <param name="position">枚举 ImageManager.WatermarkPosition : ImageManager.WatermarkPosition</param>
+            <param name="margin">水印边距: int</param>
+            <param name="writepath">保存路径(包含完整路径,文件名及其扩展名): string</param>
+            <param name="quanju">全局打水印,true：是 false:否</param>
+        </member>
+        <member name="T:System.ProcessImage.WatermarkPosition">
+            <summary>
+            枚举: 水印位置
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.LeftTop">
+            <summary>
+            左上
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.Left">
+            <summary>
+            左中
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.LeftBottom">
+            <summary>
+            左下
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.Top">
+            <summary>
+            正上
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.Center">
+            <summary>
+            正中
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.Bottom">
+            <summary>
+            正下
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.RightTop">
+            <summary>
+            右上
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.RightCenter">
+            <summary>
+            右中
+            </summary>
+        </member>
+        <member name="F:System.ProcessImage.WatermarkPosition.RigthBottom">
+            <summary>
+            右下
+            </summary>
+        </member>
+        <member name="M:System.INIFile.IniWriteValue(System.String,System.String,System.String)">
+            <summary>
+            写INI文件
+            </summary>
+            <param name="Section"></param>
+            <param name="Key"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:System.INIFile.IniReadValue(System.String,System.String)">
+            <summary>
+            读取INI文件
+            </summary>
+            <param name="Section"></param>
+            <param name="Key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.INIFile.ClearAllSection">
+            <summary>
+            删除ini文件下所有段落
+            </summary>
+        </member>
+        <member name="M:System.INIFile.ClearSection(System.String)">
+            <summary>
+            删除ini文件下personal段落下的所有键
+            </summary>
+            <param name="Section"></param>
+        </member>
+        <member name="T:System.ExtBool">
+            <summary>
+            bool
+            </summary>
+        </member>
+        <member name="M:System.ExtBool.GetInt(System.Boolean)">
+            <summary>
+            传入true返回1，反之为0
+            </summary>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtDataSet">
+            <summary>
+            DataSet
+            </summary>
+        </member>
+        <member name="M:System.ExtDataSet.ReplaceDbNull(System.Data.DataSet)">
+            <summary>
+            去掉dbnull
+            </summary>
+            <param name="ds">dataset对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtDataTable">
+            <summary>
+            DataTable
+            </summary>
+        </member>
+        <member name="M:System.ExtDataTable.ReplaceDbNull(System.Data.DataTable)">
+            <summary>
+            替换dbnull
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtDataTable.OrderBy(System.Data.DataTable,System.String)">
+            <summary>
+            根据传入的排序条件讲datatable排序
+            </summary>
+            <param name="dt"></param>
+            <param name="sort">id desc或者 id 等</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtDataTable.Where(System.Data.DataTable,System.String)">
+            <summary>
+            返回符合条件的数据
+            </summary>
+            <param name="dt"></param>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtDataTable.Skip(System.Data.DataTable,System.Int32)">
+            <summary>
+            删除datatable前多少行
+            </summary>
+            <param name="dt"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtDataTable.Take(System.Data.DataTable,System.Int32)">
+            <summary>
+            取datatable前多少行
+            </summary>
+            <param name="dt"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtDatetime">
+            <summary>
+            DateTime
+            </summary>
+        </member>
+        <member name="M:System.ExtDatetime.GetDateTime(System.Nullable{System.DateTime})">
+            <summary>
+            datetime? to datetime(格式：例：yyyy-MM-dd hh:mm:ss)
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtDatetime.GetString(System.Nullable{System.DateTime},System.String)">
+            <summary>
+            datetime? to String
+            </summary>
+            <param name="s"></param>
+            <param name="format">yyyy-MM-dd etc.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtDatetime.Formate(System.DateTime)">
+            <summary>
+            2009-09-09 12:30 星期三
+            </summary>
+            <param name="dt">传入的时间</param>
+            <returns>格式：2009-09-09 12:30 星期三</returns>
+        </member>
+        <member name="M:System.ExtDatetime.Formate(System.DateTime,System.Boolean)">
+            <summary>
+            2009-09-09
+            12:30 星期三
+            </summary>
+            <param name="dt">传入的时间</param>
+            <param name="br">默认为false不换行，true换行</param>
+            <returns>br=false格式：2009-09-09 br 12:30 星期三</returns>
+        </member>
+        <member name="T:System.ExtDecimal">
+            <summary>
+            decimal
+            </summary>
+        </member>
+        <member name="M:System.ExtDecimal.GetDecimal(System.Nullable{System.Decimal})">
+            <summary>
+            decimal? to decimal
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtDouble">
+            <summary>
+            double
+            </summary>
+        </member>
+        <member name="M:System.ExtDouble.GetDouble(System.Nullable{System.Double})">
+            <summary>
+            可空double类型转换为double.
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtFloat">
+            <summary>
+            float
+            </summary>
+        </member>
+        <member name="M:System.ExtFloat.GetFloat(System.Nullable{System.Single})">
+            <summary>
+            float? to float
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtInt">
+            <summary>
+            int
+            </summary>
+        </member>
+        <member name="M:System.ExtInt.GetBool(System.Int32)">
+            <summary>
+            传入0为false ，反之为true
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtInt.GetBool(System.Nullable{System.Int32})">
+            <summary>
+            传入0或者null值为false ，反之为true
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtInt.GetInt(System.Nullable{System.Int32})">
+            <summary>
+             传入可空int，返回int，（默认为0）
+            </summary>
+            <param name="i">可空int型参数</param>
+            <returns>true|false</returns>
+        </member>
+        <member name="M:System.ExtInt.GetInt(System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            传入可空int，返回int
+            </summary>
+            <param name="i">可空int型参数</param>
+            <param name="defaultvalue">默认值</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtObject">
+            <summary>
+            object
+            </summary>
+        </member>
+        <member name="M:System.ExtObject.GetString(System.Object)">
+            <summary>
+            object to string (如果为null值则返回""),自动Trim()
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtString">
+            <summary>
+            对string类型的扩展
+            </summary>
+        </member>
+        <member name="M:System.ExtString.IsNullOrEmpty(System.String)">
+            <summary>
+            判断是否是null或者空字符串
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetInt(System.String)">
+            <summary>
+            转换成int类型
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetLong(System.String)">
+            <summary>
+            转换成long类型
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetBool(System.String)">
+            <summary>
+            转换成bool型，(null,"",0,false 为 false,其他是true)
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetDecimal(System.String)">
+            <summary>
+            字符串转换为decimal
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetDouble(System.String)">
+            <summary>
+            字符串转为double
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetFloat(System.String)">
+            <summary>
+            字符串转为float
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.GetDateTime(System.String)">
+            <summary>
+            字符串转时间类型，如果string不是时间格式的，直接返回当天时间
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.ToEncode(System.String)">
+            <summary>
+            HtmlEncode
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.ToDecode(System.String)">
+            <summary>
+            HtmlEncode
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Subs(System.String,System.Int32)">
+            <summary>
+            截取字符串，大于length，返回length-2+"..",否则直接返回s
+            </summary>
+            <param name="s"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Subs(System.String,System.Int32,System.String)">
+            <summary>
+            截取字符串，大于length，返回length+后缀,否则直接返回s
+            </summary>
+            <param name="s"></param>
+            <param name="length"></param>
+            <param name="houzhui"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.ToBase64(System.String)">
+            <summary>
+            加密成base64
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.FromBase64(System.String)">
+            <summary>
+            解密base64
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.NoHTML(System.String)">
+            <summary>
+            删除html代码，保留文本值
+            </summary>
+            <param name="htmlstring"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.DeleteHMTL(System.String)">
+            <summary>
+            删除html代码，保留文本值
+            </summary>
+            <param name="htmlstring"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.IsMatch(System.String,System.String)">
+            <summary>
+            正则表达式判断是否匹配
+            </summary>
+            <param name="s"></param>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Match(System.String,System.String)">
+            <summary>
+            正则表达式匹配字符串
+            </summary>
+            <param name="s"></param>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Match(System.String,System.String,System.String)">
+            <summary>
+            正则匹配字符串
+            </summary>
+            <param name="s"></param>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Matches(System.String,System.String,System.String)">
+            <summary>
+            正则匹配字符串
+            </summary>
+            <param name="s"></param>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Matches(System.String,System.String)">
+            <summary>
+            正则匹配字符串
+            </summary>
+            <param name="s"></param>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.RegReplace(System.String,System.String,System.String)">
+            <summary>
+            正则表达式替换
+            </summary>
+            <param name="s"></param>
+            <param name="reg"></param>
+            <param name="newvalue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.RegReplace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator)">
+            <summary>
+            正则表达式替换
+            </summary>
+            <param name="s"></param>
+            <param name="reg"></param>
+            <param name="evaluator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Left(System.String,System.Int32)">
+            <summary>
+            取字符串左侧多少个字符，如果超出字符串长度，则直接返回字符串
+            </summary>
+            <param name="s"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtString.Right(System.String,System.Int32)">
+            <summary>
+            取字符串右侧多少个字符，如果超出字符串长度，则直接返回字符串
+            </summary>
+            <param name="s"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cfg">
+            <summary>
+            配置工具类
+            </summary>
+        </member>
+        <member name="M:Cfg.Get(System.String)">
+            <summary>
+            获取配置文件AppSettings的值
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ExtPage">
+            <summary>
+            对web page 的扩展（主要是为了简化代码）
+            </summary>
+        </member>
+        <member name="M:System.ExtPage.QueryInt(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取QueryString的值，并且转换为 int
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.QueryFloat(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取QueryString的值，并且转换为 float
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.QueryDecimal(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取QueryString的值，并且转换为 decimal
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.QueryDouble(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取QueryString的值，并且转换为 double
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.FormInt(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取Form的值，并且转换为 int
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.FormFloat(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取Form的值，并且转换为 float
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.FormDecimal(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取Form的值，并且转换为 decimal
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ExtPage.FormDouble(System.Web.HttpRequest,System.String)">
+            <summary>
+            获取Form的值，并且转换为 double
+            </summary>
+            <param name="request">System.Web.HttpRequest</param>
+            <param name="name">QueryString 参数名称</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
