@@ -16,3 +16,8 @@ E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Model\b
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Model\obj\Debug\Model.dll
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Model\obj\Debug\Model.pdb
+E:\工作\ZCK7890\tccms_v1_src\Model\bin\Debug\Model.dll
+E:\工作\ZCK7890\tccms_v1_src\Model\bin\Debug\Model.pdb
+E:\工作\ZCK7890\tccms_v1_src\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\工作\ZCK7890\tccms_v1_src\Model\obj\Debug\Model.dll
+E:\工作\ZCK7890\tccms_v1_src\Model\obj\Debug\Model.pdb

@@ -26,3 +26,12 @@ E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAcce
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\obj\Debug\DALAccess.csprojResolveAssemblyReference.cache
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\obj\Debug\Tc.DALAccess.dll
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\DALAccess\obj\Debug\Tc.DALAccess.pdb
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\bin\Debug\Tc.DALAccess.dll
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\bin\Debug\Tc.DALAccess.pdb
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\bin\Debug\DotNet.dll
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\bin\Debug\Model.dll
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\bin\Debug\System.Data.SQLite.DLL
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\bin\Debug\Model.pdb
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\obj\Debug\DALAccess.csprojResolveAssemblyReference.cache
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\obj\Debug\Tc.DALAccess.dll
+E:\工作\ZCK7890\tccms_v1_src\DALAccess\obj\Debug\Tc.DALAccess.pdb

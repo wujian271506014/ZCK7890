@@ -30,7 +30,7 @@
                         <asp:Button ID="Button1" runat="server" Text="登陆" CssClass="login-btn" OnClick="Button1_Click" /></dd>
                 </dl>
             </div>
-            <div class="login-power">Powered by<a href="http://www.tuichu.net"><strong>推出网官网</strong></a>&copy; 2012-2013<a href="http://www.tuichu.net" target="_blank">Tuichu</a> Inc.</div>
+            <div class="login-power">Powered by<a href="http://www.WuJian.net"><strong>吴键官网</strong></a>&copy; 2012-2013<a href="http://www.WuJian.net" target="_blank">WuJian</a> Inc.</div>
         </div>
     </form>
     <script>

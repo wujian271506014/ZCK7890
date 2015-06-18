@@ -64,7 +64,7 @@
                         <dd style='display: block' class='sitem' id='items4_1'>
                             <ul class='sitemu'>
                                 <li><a href='liuyan/list.aspx' target='main'>留言管理</a></li>
-                                <li><a href='ad/list.aspx' target='main'>广告管理</a></li>
+                                <li style="display:none"><a href='ad/list.aspx' target='main'>广告管理</a></li>
                                 <li><a href='huandeng/list.aspx?types=index&width=980&height=300' target='main'>幻灯片管理</a></li>
                                 <li><a href='links/list.aspx' target='main'>友情链接管理</a></li>
                             </ul>
@@ -75,7 +75,7 @@
                         <dd style='display: block' class='sitem' id='items5_1'>
                             <ul class='sitemu'>
                                 <li><a href='config/list.aspx?types=web' target='main'>网站配置</a></li>
-                                <li><a href='zidian/list.aspx' target='main'>字典管理</a></li>
+                                <li style="display:none"><a href='zidian/list.aspx' target='main'>字典管理</a></li>
                                 <li><a href='guanli/pwd.aspx' target='main'>修改登陆密码</a></li>
                             </ul>
                         </dd>

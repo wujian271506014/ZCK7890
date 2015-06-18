@@ -4,7 +4,7 @@
     <div class="NavBG">
         <!--Head Menu Start-->
         <ul id='sddm'>
-            <li class='CurrentLi'><a href='/'>网站首页
+            <li class='CurrentLi'><a href='/index.aspx'>网站首页
             </a></li>
             <li><a href='/page/company.aspx' onmouseover="mopen('m2')" onmouseout='mclosetime()'>关于公司
             </a>

@@ -51,3 +51,16 @@ E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Web8\bi
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Web8\obj\Debug\Web8.csprojResolveAssemblyReference.cache
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Web8\obj\Debug\Tc.Web.dll
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\Web8\obj\Debug\Tc.Web.pdb
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.Web.dll.config
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.Web.dll
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.Web.pdb
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\DotNet.dll
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Model.dll
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.BLL.dll
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.DALAccess.dll
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.BLL.pdb
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Model.pdb
+E:\工作\ZCK7890\tccms_v1_src\Web8\bin\Tc.DALAccess.pdb
+E:\工作\ZCK7890\tccms_v1_src\Web8\obj\Debug\Web8.csprojResolveAssemblyReference.cache
+E:\工作\ZCK7890\tccms_v1_src\Web8\obj\Debug\Tc.Web.dll
+E:\工作\ZCK7890\tccms_v1_src\Web8\obj\Debug\Tc.Web.pdb

@@ -42,3 +42,14 @@ E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\bin
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\obj\Debug\Tc.BLL.dll
 E:\工作\ZCK7890\推出网企业建站系统V1.0 ACCESS版\tccms_v1_src\BLL\obj\Debug\Tc.BLL.pdb
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\Tc.BLL.dll
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\Tc.BLL.pdb
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\Model.dll
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\Tc.DALAccess.dll
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\DotNet.dll
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\Tc.DALAccess.pdb
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\Model.pdb
+E:\工作\ZCK7890\tccms_v1_src\BLL\bin\Debug\DotNet.xml
+E:\工作\ZCK7890\tccms_v1_src\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\工作\ZCK7890\tccms_v1_src\BLL\obj\Debug\Tc.BLL.dll
+E:\工作\ZCK7890\tccms_v1_src\BLL\obj\Debug\Tc.BLL.pdb

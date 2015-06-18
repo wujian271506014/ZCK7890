@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("Tc.Web")]
-[assembly: AssemblyDescription("web By 推出网 ")]
+[assembly: AssemblyDescription("web By 吴键 ")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("推出网")]
-[assembly: AssemblyProduct("推出网企业建站系统")]
-[assembly: AssemblyCopyright("Copyright (C) tuichu.net 2004-2010")]
+[assembly: AssemblyCompany("吴键")]
+[assembly: AssemblyProduct("吴键企业建站系统")]
+[assembly: AssemblyCopyright("Copyright (C) WuJian.net 2004-2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyVersion("2.0.0.0")]
